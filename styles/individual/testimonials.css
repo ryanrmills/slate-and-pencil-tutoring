@@ -1,0 +1,43 @@
+/* 
+  Name: Ryan Mills
+  Date: 08/16/2024
+  File: testimonials.css
+  FileDesc: stylesheet for testimonials.html
+*/
+
+main {
+  /* display: flex;
+  flex-direction: row; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em 4em;
+}
+
+.testis-pic {grid-area: real-testis}
+.quote {grid-area: quotes}
+.testis-id {grid-area: testis-id}
+
+main aside {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "real-testis quotes"
+                       "real-testis testis-id";
+
+  max-width: 400px;
+  margin: 0 auto;
+  /* max-height: 50px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 100px 1fr;
+
+  grid-template-areas: "real-testis quotes"
+                       "real-testis testis-id"; */
+}
+
+main aside p {
+  margin-left: 1em;
+  margin-top: 0.5em;
+  color: rgb(96, 9, 177);
+}

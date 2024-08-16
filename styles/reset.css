@@ -1,0 +1,15 @@
+/* 
+  Name: Ryan Mills
+  Date: 08/16/2024
+  File: reset.css
+  FileDesc: stylesheet for all .html removing its default behavior
+*/
+
+ul, ol {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

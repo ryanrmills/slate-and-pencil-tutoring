@@ -1,0 +1,26 @@
+/* 
+  Name: Ryan Mills
+  Date: 08/16/2024
+  File: layouts.css
+  FileDesc: stylesheet for all .html creating its structure
+*/
+
+#logo {grid-area: image-logo}
+nav.vertical {grid-area: vnav}
+nav.horizontal {grid-area: hnav}
+main {grid-area: main}
+footer {grid-area: footer}
+
+body {
+  /* width: 1600px; */
+  width: 70%;
+  min-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "image-logo image-logo vnav"
+                       "hnav hnav hnav"
+                       "main main main"
+                       "footer footer footer";
+}

@@ -1,0 +1,47 @@
+/* 
+  Name: Ryan Mills
+  Date: 08/16/2024
+  File: hours.css
+  FileDesc: stylesheet for hours.html
+*/
+
+body {
+  min-width: 700px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main p {
+  color:rgb(61, 0, 94);
+  margin: 0;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+table {
+  border: 1px black solid;
+  border-collapse: collapse;
+  margin: 1.5em;
+}
+
+th {
+  color: white;
+  background-color: rgb(0, 0, 72);
+  padding: 0.4em;
+}
+
+tr:nth-child(odd) {
+  background-color: aliceblue;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(222, 230, 255);
+}
+
+td {
+  border: 1px black solid;
+  padding: 0.5em;
+}
